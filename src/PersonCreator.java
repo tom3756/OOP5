@@ -7,6 +7,12 @@ public class PersonCreator {
         System.out.println(Person01.getName()+", "+Person01.getAge()+" Years, "+Person01.getHeight()+"cm, "+Person01.getWeight()+"lbs");
         System.out.println(Person02.getName()+", "+Person02.getAge()+" Years, "+Person02.getHeight()+"cm, "+Person02.getWeight()+"lbs");
         System.out.println(Person03.getName()+", "+Person03.getAge()+" Years, "+Person03.getHeight()+"cm, "+Person03.getWeight()+"lbs");
+        Person01.GrowOlder();
+        System.out.println("\nAll Peoples but James is older, shorter and lighter:");
+        System.out.println(Person01.getName()+", "+Person01.getAge()+" Years, "+Person01.getHeight()+"cm, "+Person01.getWeight()+"lbs");
+        System.out.println(Person02.getName()+", "+Person02.getAge()+" Years, "+Person02.getHeight()+"cm, "+Person02.getWeight()+"lbs");
+        System.out.println(Person03.getName()+", "+Person03.getAge()+" Years, "+Person03.getHeight()+"cm, "+Person03.getWeight()+"lbs");
+
     }
 
 }
